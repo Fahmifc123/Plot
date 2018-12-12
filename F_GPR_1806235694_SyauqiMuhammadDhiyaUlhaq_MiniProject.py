@@ -3,11 +3,9 @@ from tkinter import *
 import matplotlib.pyplot as plt
 from tkinter import filedialog
 
-
 x, y = [], []
 
 class Plot:
-
     def __init__(self,master):
         self.master=master
         self.master.title("File-to-Graph Converter")
